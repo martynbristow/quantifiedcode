@@ -5,7 +5,7 @@ click==6.7
 flask==1.0
 psycopg2-binary  # We use the binary package for local dev ... switch back to psycopg2 for production
 chardet==3.0.4
-sqlalchemy==1.1.11
+sqlalchemy==1.3.0
 pyyaml==5.4
 wtforms==2.1
 #we still use Celery 3 as 4 causes some problems...
