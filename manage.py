@@ -5,12 +5,15 @@ import click
 import os
 import logging
 
+
 @click.group()
 def qc():
     pass
 
+
 for command in commands:
     qc.add_command(command)
+
 
 if __name__ == '__main__':
     settings.initialize(initialize_logging=True)
